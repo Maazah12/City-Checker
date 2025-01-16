@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    h1,p {
+        background-color: grey;
+        color: black;
+        text-align: center;
+        font-size: 100px;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px 0;
+    }
+   
+
+    @media (max-width: 768px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
+
+    @media (max-width: 400px) {
+        h1 {
+            font-size: 1.2rem;
+        }
+    }
+</style>
+
+<body>
+    <h1>Array City Checker!</h1>
+    <p>If the city is found, it should display an alert message.</p>
+</body>
+<script src="index.js"></script>
+
+</html>
